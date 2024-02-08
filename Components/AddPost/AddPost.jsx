@@ -187,7 +187,7 @@ const AddPost = () => {
      {/* want to Button in Header.jsx instead of AddPosts.jsx */}
       <Button variant="primary" onClick={handleShow} className="addPostBtn"> 
       <FaPlus className="f-5"/> 
-        Add Posts nnbnbnbnbn
+        Add Posts 
       </Button>
 
       <Modal show={show} onHide={handleClose} className={`${opacity ? "opacityLess" : "yourClassNameWhenFalse"}`}>
@@ -206,7 +206,7 @@ const AddPost = () => {
         {isAlert ? <Alert msg={"Please Upload an Image"} /> : ""}
 
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Add Post</Modal.Title>
         </Modal.Header>
 
         <Modal.Body>
