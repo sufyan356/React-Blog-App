@@ -1,0 +1,94 @@
+.logoClass{
+  width: 100px!important;
+
+}
+
+.linksImages{
+  width: 10px;
+  height: 10px;
+}
+.btnContainer{
+    width: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media(max-width:280px){
+  .Greetings{
+    width: 50%!important;
+
+  }
+
+  .GreetingsSpan{
+    width: 100%!important;
+    text-align: center!important;
+    padding: o.5rem;
+}
+}
+
+@media(max-width:343px){
+  .GreetingsSpan{
+    width: 90%!important;
+    text-align: center!important;
+}
+
+}
+@media(max-width:991px){
+  .Greetings{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+.GreetingsSpan{
+  margin-right: auto;
+}
+.addPostBtnContainer{
+  margin-right: 1rem 
+}
+.GreetingsSpan{
+  border: 1px dotted green;
+  font-family: math;
+  background-color: #DA8A8A;
+  color: white;
+}
+.btnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 0.5rem;
+}
+.navbar-nav{
+  margin-left: 0!important;
+}
+
+}
+
+@media(min-width:992px){
+  .Greetings{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .addPostBtnContainer{
+    /* border: 1px solid green; */
+    margin-left: auto;
+    margin-right: 1rem 
+  }
+  .GreetingsSpan{
+    border: 2px dotted green;
+    text-align: center;
+    margin-left: auto;
+    /* padding: 1rem; */
+    font-family: math;
+    background-color:#DA8A8A;
+    color: white;
+  }
+}
+

@@ -1,0 +1,128 @@
+/* :root {
+  overflow-x: hidden;
+  background-color: #FFFFFF!important;
+}
+
+.FormContainer{
+    border: 1px solid red;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form{
+  border: 1px solid grey;
+  padding: 3rem;
+  border-radius: 2rem;
+  width: 30%!important;
+  
+}
+
+.loginLink{
+  margin-top: 1rem!important;
+  
+}
+.loginLink > span{
+  color:  #d18617;  
+  cursor: pointer;
+}
+.navbar-with-shadow {
+  transition: box-shadow 0.3s;
+  box-shadow: 0 0 5px black; 
+
+} */
+.loader{
+    /* border: 1px solid red; */
+    height: 100%!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalLoader{
+  position: absolute;
+    /* border: 1px solid blue; */
+    /* height: 100%!important; */
+    z-index: 100;
+    /* top: 96%; */
+    bottom: 26%;
+    left: 15%;
+}
+.opacityLess{
+  opacity: 0.9;
+}
+.afterModalLoader{
+  height: 100%;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+}
+.MainLoader{
+  /* border: 1px solid red!important; */
+  height: 100vh!important;
+  width: 100%!important;
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnPostsContainer{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.uploadFiles{
+  border: 1px dotted grey;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  color: purple;
+  cursor: pointer;
+  height: 10rem;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.FileList{
+/* border: 1px solid green; */
+height: 100%;
+width: 30%;
+}
+.uploadFile{
+  border: 1px dotted grey;
+  height: 100%;
+  width: 30%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2rem;
+}
+.uploadFile:hover{
+  background-color: rgb(231, 229, 229);
+}
+.uploadImageTemp{
+  height: 100%!important;
+    width: 100%!important;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+.UploadImageTempContainer{
+  height: 100%!important;
+    width: 100%!important;
+}
+.alertContainer{
+  margin-left: auto;
+  text-align: center;
+  width: 40%!important;
+}
+.addPostBtn{
+  display: flex!important;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0rem; */
+    width: 9rem;
+}
+
